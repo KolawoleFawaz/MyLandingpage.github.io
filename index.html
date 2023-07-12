@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My landing page</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a href="#" target="_blank">My landing page</a>
+            <i class="fas fa-bars" id="menu-btn"></i>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <header>
+                <h2>Hi</h2>
+                <h2>My name is Fawaz, welcoming to my webpage</h2>
+                <p>I am a software engineer with a keen interest in creative problem solving. I aspire to bring solutions to real-world problems through software technology.</p>
+            </header>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>This is a landing page in connection to my portfolio project "A maze game". The maze is a 3D maze game that uses ray casting to render a 2D map into a 3D navigatable world.</p>
+            <h4>Usage:</h4>
+            <ul>
+                <li>Execute ./maze or type make run</li>
+                <li>Use up and down arrow keys to move forward and backward (keys W and S serve the same function)</li>
+                <li>Use right and left arrow keys to turn the camera around (Keys D and A serve the same function)</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>The maze was written in C using the SDL2 library. Development was performed using Ubuntu 14.04 LTS – gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4</p>
+            <h4>Installation:</h4>
+            <p>git clone https://github.com/KolawoleFawaz/alx-maze-project.git</p>
+            <h4>Link to GitHub repository:</h4>
+            <p><a href="https://github.com/KolawoleFawaz/alx-maze-project.git" target="_blank">https://github.com/KolawoleFawaz/alx-maze-project.git</a></p>
+            <h4>Compilation:</h4>
+            <p>gcc –Wall –Werror –Wextra –pedantic ./src/*.c –lm –o maze 'sdl2-config --libs';</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/fawaz-azeez-27a98517a/" target="_blank">https://www.linkedin.com/in/fawaz-azeez-27a98517a/</a></p>
+            <p>Twitter: <a href="https://twitter.com/InfiniteFlow_z" target="_blank">https://twitter.com/InfiniteFlow_z</a></p>
+        </section>
+    </div>
+    <script src="nav.js"></script>
+</body>
+</html>
